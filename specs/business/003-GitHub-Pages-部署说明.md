@@ -10,9 +10,9 @@
    - `.vitepress/cache/`
 2. 已创建 GitHub Actions 工作流文件：
    - `.github/workflows/deploy.yml`
-3. 已在 VitePress 配置中加入 GitHub Pages `base` 自动推导逻辑：
-   - GitHub 仓库名为 `<repo-name>` 时，构建产物将使用 `/<repo-name>/`
-   - 若仓库名以 `.github.io` 结尾，则自动使用根路径 `/`
+3. 当前站点使用自定义域名部署：
+   - VitePress `base` 固定为 `/`
+   - 自定义域名场景下，静态资源应从站点根路径加载，而不是 `/<repo-name>/`
 
 ## 工作流行为
 
@@ -45,8 +45,8 @@
 
 ## 发布结果
 
-1. 用户站点仓库：`https://<username>.github.io/`
-2. 项目站点仓库：`https://<username>.github.io/<repo-name>/`
+1. 当前自定义域名：`https://blog.pandaer.top/`
+2. GitHub Pages 默认地址通常仍可访问，但对外应以自定义域名为准
 
 ## 本地验证命令
 
