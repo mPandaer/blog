@@ -13,7 +13,8 @@ export default defineConfig({
     nav,
     sidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com' }
+      { icon: 'github', link: 'https://github.com/mpandaer' },
+      { icon: 'mail', link: 'mailto:liwenhaolx@gmail.com' }
     ]
   }
 })
