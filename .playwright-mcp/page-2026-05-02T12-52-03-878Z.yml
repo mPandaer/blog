@@ -1,0 +1,136 @@
+- generic [ref=e3]:
+  - link "Skip to content" [ref=e4] [cursor=pointer]:
+    - /url: "#VPContent"
+  - banner:
+    - generic:
+      - generic:
+        - generic:
+          - link "我的博客" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e7]: 我的博客
+          - generic [ref=e8]:
+            - navigation "Main Navigation" [ref=e9]:
+              - generic [ref=e10]: Main Navigation
+              - link "首页" [ref=e11] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e12]: 首页
+            - button "extra navigation" [ref=e14] [cursor=pointer]
+  - generic [ref=e19]:
+    - heading "张三 Permalink to \"张三\"" [level=1] [ref=e20]:
+      - text: 张三
+      - link "Permalink to \"张三\"":
+        - /url: "#张三"
+    - paragraph [ref=e21]: 全栈工程师 · 后端架构师 · 开源贡献者
+    - paragraph [ref=e22]:
+      - text: 📧
+      - link "zhangsan@example.com" [ref=e23] [cursor=pointer]:
+        - /url: mailto:zhangsan@example.com
+      - text: · 🐙
+      - link "GitHub" [ref=e24] [cursor=pointer]:
+        - /url: https://github.com/zhangsan
+      - text: · 🌐
+      - link "Blog" [ref=e25] [cursor=pointer]:
+        - /url: https://blog.example.com
+    - separator [ref=e26]
+    - heading "🙋‍♂️ 关于我 Permalink to \"🙋‍♂️ 关于我\"" [level=2] [ref=e27]:
+      - text: 🙋‍♂️ 关于我
+      - link "Permalink to \"🙋‍♂️ 关于我\"":
+        - /url: "#🙋‍♂️-关于我"
+    - paragraph [ref=e28]: 拥有 8 年后端开发经验，专注于 Java/Go 微服务架构设计与高并发系统优化。热爱开源，活跃于多个技术社区，擅长从 0 到 1 搭建项目并推动落地。持续写作技术博客，分享实践心得与架构思考。
+    - separator [ref=e29]
+    - heading "💼 工作经历 Permalink to \"💼 工作经历\"" [level=2] [ref=e30]:
+      - text: 💼 工作经历
+      - link "Permalink to \"💼 工作经历\"":
+        - /url: "#💼-工作经历"
+    - heading "某科技有限公司 | 高级后端工程师 | 2022.03 - 至今 Permalink to \"某科技有限公司 | 高级后端工程师 | 2022.03 - 至今\"" [level=3] [ref=e31]:
+      - text: 某科技有限公司 | 高级后端工程师 | 2022.03 - 至今
+      - link "Permalink to \"某科技有限公司 | 高级后端工程师 | 2022.03 - 至今\"":
+        - /url: "#某科技有限公司-高级后端工程师-2022-03-至今"
+    - list [ref=e32]:
+      - listitem [ref=e33]: 主导电商平台核心交易系统的微服务化改造，日处理订单量提升至 50w+
+      - listitem [ref=e34]: 设计并实现分布式事务方案（Saga + 本地消息表），保证数据最终一致性
+      - listitem [ref=e35]: 搭建统一 API 网关，实现限流熔断、灰度发布等能力，系统可用性达 99.95%
+      - listitem [ref=e36]: 带队重构遗留单体应用，拆分为 12 个独立微服务，开发效率提升 40%
+    - heading "某互联网公司 | 后端开发工程师 | 2019.07 - 2022.02 Permalink to \"某互联网公司 | 后端开发工程师 | 2019.07 - 2022.02\"" [level=3] [ref=e37]:
+      - text: 某互联网公司 | 后端开发工程师 | 2019.07 - 2022.02
+      - link "Permalink to \"某互联网公司 | 后端开发工程师 | 2019.07 - 2022.02\"":
+        - /url: "#某互联网公司-后端开发工程师-2019-07-2022-02"
+    - list [ref=e38]:
+      - listitem [ref=e39]: 负责用户中心服务的开发与维护，承载千万级日活用户
+      - listitem [ref=e40]: 引入 Redis 缓存 + 布隆过滤器，将数据库查询减少 70%
+      - listitem [ref=e41]: 设计 RBAC 权限模型，灵活支持多租户场景
+    - heading "某初创企业 | Java 开发工程师 | 2017.03 - 2019.06 Permalink to \"某初创企业 | Java 开发工程师 | 2017.03 - 2019.06\"" [level=3] [ref=e42]:
+      - text: 某初创企业 | Java 开发工程师 | 2017.03 - 2019.06
+      - link "Permalink to \"某初创企业 | Java 开发工程师 | 2017.03 - 2019.06\"":
+        - /url: "#某初创企业-java-开发工程师-2017-03-2019-06"
+    - list [ref=e43]:
+      - listitem [ref=e44]: 参与 SaaS 企业管理平台的从 0 到 1 开发
+      - listitem [ref=e45]: 负责报表模块的设计与实现，支持动态自定义报表模板
+    - separator [ref=e46]
+    - heading "🚀 项目经历 Permalink to \"🚀 项目经历\"" [level=2] [ref=e47]:
+      - text: 🚀 项目经历
+      - link "Permalink to \"🚀 项目经历\"":
+        - /url: "#🚀-项目经历"
+    - heading "分布式任务调度平台 Permalink to \"分布式任务调度平台\"" [level=3] [ref=e48]:
+      - text: 分布式任务调度平台
+      - link "Permalink to \"分布式任务调度平台\"":
+        - /url: "#分布式任务调度平台"
+    - paragraph [ref=e49]: 技术栈：Go · etcd · gRPC · PostgreSQL · React
+    - list [ref=e50]:
+      - listitem [ref=e51]: 从零设计并实现了一个分布式任务调度系统，支持 Cron 定时、延时、工作流任务
+      - listitem [ref=e52]: 基于 etcd 的 Leader 选举实现 Master 节点高可用
+      - listitem [ref=e53]: 采用 gRPC 进行 Worker 通信，支持动态扩缩容
+    - heading "实时数据同步中间件 Permalink to \"实时数据同步中间件\"" [level=3] [ref=e54]:
+      - text: 实时数据同步中间件
+      - link "Permalink to \"实时数据同步中间件\"":
+        - /url: "#实时数据同步中间件"
+    - paragraph [ref=e55]: 技术栈：Java · Kafka · Flink · TiDB
+    - list [ref=e56]:
+      - listitem [ref=e57]: 基于 CDC 技术实现 MySQL → TiDB 的实时数据同步，延迟 < 1 秒
+      - listitem [ref=e58]: 利用 Flink 进行流式 ETL 转换，处理复杂的数据清洗逻辑
+      - listitem [ref=e59]: 支撑公司核心报表业务的实时数据需求
+    - separator [ref=e60]
+    - heading "🛠 技能 Permalink to \"🛠 技能\"" [level=2] [ref=e61]:
+      - text: 🛠 技能
+      - link "Permalink to \"🛠 技能\"":
+        - /url: "#🛠-技能"
+    - paragraph [ref=e62]:
+      - code [ref=e63]: Java
+      - code [ref=e64]: Go
+      - code [ref=e65]: Spring Boot
+      - code [ref=e66]: MySQL
+      - code [ref=e67]: Redis
+      - code [ref=e68]: Kafka
+      - code [ref=e69]: Docker
+      - code [ref=e70]: Kubernetes
+      - code [ref=e71]: 微服务
+      - code [ref=e72]: 分布式系统
+      - code [ref=e73]: TypeScript
+      - code [ref=e74]: React
+    - separator [ref=e75]
+    - heading "📝 技术博客 Permalink to \"📝 技术博客\"" [level=2] [ref=e76]:
+      - text: 📝 技术博客
+      - link "Permalink to \"📝 技术博客\"":
+        - /url: "#📝-技术博客"
+    - list [ref=e77]:
+      - listitem [ref=e78]:
+        - link "深入理解分布式事务：从理论到实践" [ref=e79] [cursor=pointer]:
+          - /url: https://blog.example.com/distributed-transactions
+      - listitem [ref=e80]:
+        - link "Go 并发编程：Goroutine 与 Channel 最佳实践" [ref=e81] [cursor=pointer]:
+          - /url: https://blog.example.com/go-concurrency
+      - listitem [ref=e82]:
+        - link "微服务拆分方法论：从单体到分布式" [ref=e83] [cursor=pointer]:
+          - /url: https://blog.example.com/microservice-split
+    - separator [ref=e84]
+    - heading "🎓 教育背景 Permalink to \"🎓 教育背景\"" [level=2] [ref=e85]:
+      - text: 🎓 教育背景
+      - link "Permalink to \"🎓 教育背景\"":
+        - /url: "#🎓-教育背景"
+    - list [ref=e86]:
+      - listitem [ref=e87]:
+        - strong [ref=e88]: 北京大学
+        - text: · 计算机科学与技术 · 硕士 · 2015 - 2017
+      - listitem [ref=e89]:
+        - strong [ref=e90]: 武汉大学
+        - text: · 软件工程 · 学士 · 2011 - 2015
