@@ -14,7 +14,8 @@ export default defineConfig({
     sidebar,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mpandaer' },
-      { icon: 'mail', link: 'mailto:liwenhaolx@gmail.com' }
+      { icon: 'gmail', link: 'mailto:liwenhaolx@gmail.com' },
+      { icon: 'wechat', link: '/004-联系我/001-联系我' }
     ]
   }
 })

@@ -112,6 +112,17 @@ function toNavItems(nodes) {
       }
     }
 
+    const childDirectories = node.items.filter((item) => item.type === 'directory')
+
+    if (childDirectories.length === 0) {
+      const firstFile = node.items.find((item) => item.type === 'file')
+
+      return {
+        text: node.text,
+        link: firstFile?.link ?? node.basePath
+      }
+    }
+
     return {
       text: node.text,
       items: toNavItems(node.items)
